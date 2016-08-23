@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font: bold 30px Tahoma;
+}
+h2{
+	font: bold 20px Tahoma;
+}
+header, section, footer, nav, aside, article,hgroup {
+	display: block;
+}
+body {
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+#big_wrapper {
+	border: 2px solid black;
+	background: white;
+	max-width: 1000px;
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#header {
+	background-color: lime;
+	padding: 20px;
+	border: 1px solid black;
+}
+#top_menu {
+	background-color: black;
+	color: lime;
+}
+#top_menu li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	padding-left:30px;
+	font: bold 20px Tahoma;
+}
+#new_div {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#main_section {
+	-webkit-box-flex: 1;
+	margin: 30px; /* ololo */
+}
+#art {
+	margin: 0px auto;
+}
+#news {
+	width: 200px;
+	margin: 30px 50px;
+	padding: 30px;
+	background: #ADFF2F;
+}
+
+#one_footer {
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	border-top: 2px solid black;
+	background:  black;
+	color: white;
+}
+body {
+background-image: url('img/26-fon-dlya-sayta.jpg');
+}
+article {
+	background: #D3D3D3;
+	border: 1px solid green;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+article footer {
+	text-align: right;
+}
