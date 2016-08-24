@@ -81,13 +81,15 @@ article {
 article footer {
 	text-align: right;
 }
-#image {
-	text-align: center;
-}
+
 p {
 	margin-top: 10px;
 }
-img {
-  width: 100%;
-  height: auto;
+
+#image {
+	text-align: center;
+}
+#im {
+	width: 50%;
+    height: auto;
 }
