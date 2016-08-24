@@ -1,11 +1,17 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		 <title>Store Project</title>
-		 <link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
+<head>
+	<meta charset="utf-8">
+	<title>Store Project</title>
+	<!-- Bootstrap -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/dopstyle.css" rel="stylesheet" media="screen">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+<body>
 	<div id="big_wrapper">
 		<h1 id="header">Welcome my friend!</h1>
 		<nav id="top_menu">
@@ -15,47 +21,104 @@
 				<li>Vk</li>
 			</ul>
 		</nav>
+		<p></p>
+		<div class="container">
+		<div class="col-md-1"></div>
+			<div class="col-md-10">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+				<!--Индикаторы слайдов-->
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#carousel-example-generic" data-slide-to="0"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+
+				<!--Слайды-->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/slider/1.jpg" alt="">
+						<div class="carousel-caption">
+							<h3>Услуги</h3>
+							<p>Печать. Hello world. Танцы с бубном</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/slider/2.jpg" alt="">
+						<div class="carousel-caption">
+							<h3>Еда</h3>
+							<p>Быстро. Вкусно. Недорого</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="images/slider/3.jpg" alt="">
+						<div class="carousel-caption">
+							<h3>Развлечения</h3>
+							<p>Большой асортимент на ваш вкус</p>
+						</div>
+					</div>
+				</div>
+
+				<!--Стрелки переключения слайдов-->
+				<a href="#carousel-example-generic" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#carousel-example-generic" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+		</div>
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
 		<div id="new_div">
-		<section id="main_section">
-			<article>
-				<header>
-					<hgroup>
-						<h1>Название товара</h1>
-						<h2>Подзаголовок</h2>
-					</hgroup>
-				</header>
 
-				<p>Описание.</p>
+			<section id="main_section">
+				<article>
+					<header>
+						<hgroup>
+							<h1>Доширак "Китайский"</h1>
+							<h2>Проживи еще денек</h2>
+						</hgroup>
+					</header>
+					<div id="image"><img src="images/136_pages12.jpg" alt=""></div>
+					<p>Мой любимый доширак, я люблю тебя глотать)</p>
 
-				<footer>
-					<p name="sex">Цена:_____</p>
-				</footer>
-			</article>
+					<footer>
+						<p name="sex">Цена: 100500р</p>
+					</footer>
+				</article>
 
-			<article id="art">
-				<header>
-					<hgroup>
-						<h1>Название товара 2</h1>
-						<h2>Подзаголовок 2</h2>
-					</hgroup>
-				</header>
+				<article id="art">
+					<header>
+						<hgroup>
+							<h1>Продам соседа</h1>
+							<h2>Торг уместен</h2>
+						</hgroup>
+					</header>
 
-				<p>Описание.</p>
+					<p>Сосед ни рыба ни мясо</p>
 
-				<footer>
-					<p>Цена:_____</p>
-				</footer>
-			</article>
+					<footer>
+						<p>Цена: договорная</p>
+					</footer>
+				</article>
 
-		</section>
-		<aside id="news">
-			<h4>News</h4>
-			New goods!
-		</aside>
+			</section>
+			<aside id="news">
+				<h1>News</h1>
+				New goods!        
+				<h2>В наличии появились кожаные плетки!</h2>
+			</aside>
 		</div>
 		<footer id="one_footer">
 			© Copyright Sorochinsky 2016
 		</footer>
-		</div>
-	</body>
+	</div>
+</body>
 </html>
