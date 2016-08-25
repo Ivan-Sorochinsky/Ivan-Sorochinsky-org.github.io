@@ -14,8 +14,11 @@ header, section, footer, nav, aside, article,hgroup {
 }
 body {
 	width: 100%;
-	display: -webkit-box;
 	-webkit-box-pack: center;
+	background-image: url('img/26-fon-dlya-sayta.jpg');
+}
+#header {
+	text-align: center;
 }
 #big_wrapper {
 	border: 2px solid black;
@@ -25,23 +28,6 @@ body {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-box-flex: 1;
-}
-#header {
-	background-color: lime;
-	margin: 0px;
-	padding: 20px;
-	border: 1px solid black;
-}
-#top_menu {
-	background-color: black;
-	color: lime;
-}
-#top_menu li {
-	display: inline-block;
-	list-style: none;
-	padding: 5px;
-	padding-left:30px;
-	font: bold 20px Tahoma;
 }
 #new_div {
 	display: -webkit-box;
@@ -58,19 +44,15 @@ body {
 	width: 200px;
 	margin: 30px 20px 700px;
 	padding: 10px;
-	background: #ADFF2F;
+	background: grey;
 }
 
 #one_footer {
 	clear: both;
 	text-align: center;
 	padding: 10px;
-	border-top: 2px solid black;
 	background:  black;
 	color: white;
-}
-body {
-background-image: url('img/26-fon-dlya-sayta.jpg');
 }
 article {
 	background: #D3D3D3;
@@ -93,3 +75,29 @@ p {
 	width: 50%;
     height: auto;
 }
+
+.container .row {
+	margin-top: 0px;
+}
+#logo {
+	margin-top: -12px;
+	margin-bottom: -15px;
+}
+#shop:hover:before {
+}
+#cost {
+text-align: right;
+font: bold 20px Tahoma;
+}
+   /*текст на одной строке */
+   .leftstr, .rightstr {
+    float: left; /* Обтекание справа */ 
+    width: 50%; /* Ширина текстового блока */ 
+   }
+   .rightstr {
+   	margin-top: 30px;
+   	padding-right: 30px;
+    text-align: right; /* Выравнивание по правому краю */ 
+    font: bold 20px Tahoma;
+   }
+ 
