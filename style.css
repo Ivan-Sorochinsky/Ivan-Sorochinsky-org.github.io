@@ -16,10 +16,7 @@ body {
 	width: 100%;
 	-webkit-box-pack: center;
 	background-image: url('img/26-fon-dlya-sayta.jpg');
-}
-#header {
-	text-align: center;
-}
+} 
 
 .pr-10 {
     padding-right: 5px;
@@ -42,23 +39,6 @@ body {
 	-webkit-box-orient: vertical;
 	-webkit-box-flex: 1;
 }
-#new_div {
-	display: -webkit-box;
-	-webkit-box-orient: horizontal;
-}
-#main_section {
-	-webkit-box-flex: 1;
-	margin: 30px; /* ololo */
-}
-#art {
-	margin: 0px auto;
-}
-#news {
-	width: 200px;
-	margin: 30px 20px 700px;
-	padding: 10px;
-	background: grey;
-}
 
 article {
 	background: #D3D3D3;
@@ -74,27 +54,15 @@ p {
 	margin-top: 10px;
 }
 
-#image {
-	text-align: center;
-}
-#im {
-	width: 50%;
-    height: auto;
-}
 
-.container .row {
-	margin-top: 0px;
-}
+
 #logo {
 	margin-top: -12px;
 	margin-bottom: -15px;
 }
 #shop:hover:before {
 }
-#cost {
-text-align: right;
-font: bold 20px Tahoma;
-}
+
    /*текст на одной строке */
    .leftstr, .rightstr {
     float: left; /* Обтекание справа */ 
@@ -135,7 +103,7 @@ body {
     padding-left: 3px;
 }
 
-.dropdown>a:before {
+.dropdown .dropdown-toggle:before {
     font-family: FontAwesome;
     content: "\f107";
     position: absolute;
@@ -146,6 +114,8 @@ body {
     color: #999;
     font-size: 14px;
 }
+
+
 .dropdown-toggle:hover:before {
 	color: white;
 }
@@ -168,7 +138,7 @@ body {
 
  .dropdown:hover > .dropdown-menu { 
     display: block; 
-} 
+}
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     color: green;
@@ -184,10 +154,10 @@ body {
 .footer {
     font-size: 14px;
     line-height: 1.5;
-}
-.footer {
-    padding: 40px 0;
+    padding: 40px 0px;
     background-color: #fafafa;
+    border-top: 1px solid #999;
+    margin-top: 80px;
 }
 
 .dark .subfooter {
@@ -197,7 +167,7 @@ body {
 
 .subfooter {
     background-color: #333;
-    padding: 25px 0;
+    padding: 25px 0px;
     border-top: 1px solid #999;
 }
 
@@ -243,6 +213,30 @@ body {
 .logo-footer {
 	margin-top: 30px;
 	margin-bottom: 20px;
+}
+
+.buy {
+    width: 180%;
+   margin-top: 25px;
+   margin-left: -30px;
+    text-align: left;
+}
+
+.dropdown-menu .bu {
+	width: 400px;
+    -webkit-transition: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #333;
+    transition: none;
+    position: relative;
+}
+.bu {
+	margin-top: -10px;
+}
+
+.cont {
+    margin-top: 50px;
 }
 
 
