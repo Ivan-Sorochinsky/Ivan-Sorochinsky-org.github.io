@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="css/font-awesome.css">
 
 </head>
+
 <body>
+<header>
 	<div class="navbar navbar-inverse navbar-static-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -28,7 +30,8 @@
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">Главная</a></li>
 					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги<b class="caret"></b></a>
+
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги</a>
 					<ul class="dropdown-menu">
 						<li><a href="#">Печать</a></li>
 						<li><a href="#">HelloWorld</a></li>
@@ -49,13 +52,28 @@
 			</div>
 		</div>
 	</div>
+	</header>
+
+		<div class="breadcrumb-container">
+					<div class="container">
+						<ol class="breadcrumb">
+							<li>
+								<i class="fa fa-home pr-10">
+								</i>
+								<a href="#" class="link-dark">Главная</a>
+							</li>
+							<li class="active">Товары
+							</li>
+						</ol>
+					</div>
+				</div>
+
 
 	<div class="container">
 		<div class="row">
 			<h1 id="header">Welcome my friend</h1>
 		</div>
 	</div>
-
 
 
 	<div class="container">
@@ -112,6 +130,19 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 
+
+
+
+
+<!--КОНТЕНТ-->
+
+
+
+
+
+
+
+
 	<div id="new_div">
 
 		<section id="main_section">
@@ -124,6 +155,7 @@
 						<h2>Проживи еще денек</h2>
 					</hgroup>
 				</header>
+
 				<div id="image"><img id="im" src="images/136_pages12.jpg" alt=""></div>
 				<p>Мой любимый доширак, я люблю тебя глотать)</p>
 
@@ -162,9 +194,81 @@
 			<h2>В наличии появились кожаные плетки!</h2>
 		</aside>
 	</div>
-	<footer id="one_footer">
-		© Copyright Sorochinsky 2016
-	</footer>
+
+
+
+	<div class="footer">
+					<div class="container">
+						<div class="footer-inner">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="footer-content">
+										<div class="logo-footer"><img id="logo" src="http://x-lines.ru/letters/i/cyrillicscript/0041/1ba603/24/0/qt3g1hdccwo8g4dxqy.png" alt=""></div>
+										<p>Возникли вопросы? Хотите узнать больше? Свяжитесь со мной, и я помогу вам!</p>
+										<ul class="list-inline mb-20">
+											<li><i class="text-default fa fa-map-marker pr-5"></i> Sevastopol </li>
+											<li><i class="text-default fa fa-phone pl-10 pr-5"></i> +7 (978) 887 81 30</li>
+											<li><a href="mailto:Ivan.Sorochinsky@yandex.ru" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> Ivan.Sorochinsky@yandex.ru</a></li>
+										</ul>
+										<div class="separator-2"></div>
+										<ul class="social-links circle margin-clear animated-effect-1">
+											<li class="facebook"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="googleplus"><a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="youtube"><a target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a></li>
+                                            										</ul>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="footer-content">
+										                                   <!-- Form Bottom -->
+                                        <h2 class="title">Свяжитесь с нами</h2>
+										<div class="alert alert-success hidden" id="MessageSent2">
+											Ваше сообщение получено! Мы свяжемся с вами в ближайшее время!										</div>
+										<div class="alert alert-danger hidden" id="MessageNotSent2">
+											Упс! Что-то пошло не так, пожалуйста, обновите страницу и повторите попытку!										</div>
+										<form role="form" id="footer-form" class="margin-clear" novalidate="novalidate">
+											<div class="form-group has-feedback mb-10">
+												<label class="sr-only" for="Name_bottom">Ваше имя</label>
+												<input type="text" class="form-control" id="Name_bottom" value="" placeholder="Ваше имя" name="Name_bottom">
+												<i class="fa fa-user form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback mb-10">
+												<label class="sr-only" for="Email_bottom">Ваш e-mail</label>
+												<input type="email" class="form-control" id="Email_bottom" placeholder="Ваш e-mail" name="Email_bottom">
+												<i class="fa fa-envelope form-control-feedback"></i>
+											</div>
+											<div class="form-group has-feedback mb-10">
+												<label class="sr-only" for="About_bottom">Сообщение</label>
+												<textarea class="form-control" rows="4" id="About_bottom" placeholder="Сообщение" name="About_bottom"></textarea>
+												<i class="fa fa-pencil form-control-feedback"></i>
+											</div>
+											<input type="submit" value="Отправить" class="margin-clear submit-button btn btn-default" onclick="sendAjax('pages', 'bottom_form'); return false;">
+										</form>
+                                   <!-- Form Bottom End -->                                        
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+	
+
+
+<div class="subfooter dark-bg">
+					<div class="container">
+						<div class="subfooter-inner">
+							<div class="row">
+								<div class="col-md-12">
+									<p class="text-center">Copyright © 2016 The Project by <a target="_blank" href="http://tripleshop.com">Triple Shope</a>. All Rights Reserved</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
 </div>
 </body>
 </html>
