@@ -1,7 +1,4 @@
-* {
-	margin: 0px;
-	padding: 0px;
-}
+
 
 h1 {
 	font: bold 30px Tahoma;
@@ -157,7 +154,7 @@ body {
     padding: 40px 0px;
     background-color: #fafafa;
     border-top: 1px solid #999;
-    margin-top: 80px;
+    margin-top: 5px;
 }
 
 .dark .subfooter {
@@ -180,7 +177,6 @@ body {
 }
 .social-links li a {
     width: 40px;
-    height: 40px;
     display: block;
     text-align: center;
     font-size: 22px;
@@ -238,6 +234,74 @@ body {
 .cont {
     margin-top: 50px;
 }
+
+
+.has-feedback {
+    position: relative;
+}
+
+.form-control-feedback {
+    color: #777;
+    width: 40px;
+    height: 40px;
+    line-height: 34px!important;
+    top: 0;
+}
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.popular-categories-i {
+    display: table-cell;
+    width: 14.66666%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.main-col-fat-menu-large .popular-categories-i-img {
+    /* width: 45px; */
+    height: 45px;
+    line-height: 45px;
+}
+.main-col-fat-menu-large .popular-categories-i-title {
+    font-size: 1.07692em;
+}
+.main-col-fat-menu-large .popular-categories-i {
+    width: 19.6%;
+}
+
+.popular-categories-i-title {
+    display: block;
+    font-size: 1.23077em;
+    line-height: 1.15em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.popular-categories-items {
+    display: table;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 3px;
+    margin-bottom: 1.76923em;
+    width: 100%;
+}
+
 
 
 
