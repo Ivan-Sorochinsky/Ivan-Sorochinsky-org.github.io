@@ -38,8 +38,6 @@ body {
 }
 
 article {
-	background: #D3D3D3;
-	border: 1px solid green;
 	padding: 20px;
 	margin-bottom: 15px;
 }
@@ -311,6 +309,36 @@ body {
 }
 .popular-categories-items-tr {
     display: table-row;
+}
+
+.main-promotions {
+    background-color: #f8f8f8;
+    padding: 1.30769em;
+    margin-bottom: 1.53846em;
+    height: 468px;
+}
+
+.main-promotions-i {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 1.15385em 1.38462em 0;
+    margin-bottom: 1.38462em;
+    border-bottom: 1px solid #eaeaea;
+}
+.main-promotions-title-inner {
+    color: green;
+}
+a {
+    color: #333;
+}
+a:hover {
+    color: green;
+}
+._blank {
+    color: green;
+}
+#group {
+    font: bold 16px Tahoma;
 }
 
 
