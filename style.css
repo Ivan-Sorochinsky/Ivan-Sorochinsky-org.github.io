@@ -338,5 +338,11 @@ a:hover {
     color: green;
 }
 
+.container {
+    max-width: 1346px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
 
 
