@@ -311,6 +311,13 @@ body {
     display: table-row;
 }
 
+.main-promotions1 {
+    background-color: #f8f8f8;
+    padding: 1.30769em;
+    margin-bottom: 1.53846em;
+    height: 552px;
+}
+
 .main-promotions {
     background-color: #f8f8f8;
     padding: 1.30769em;
