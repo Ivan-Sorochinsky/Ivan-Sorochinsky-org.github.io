@@ -58,6 +58,9 @@ h1 a {
 .accordion li:last-child .link {
     border-bottom: 0;
 }
+.dropdown-menu li:last-child .link {
+    border-bottom: 0;
+}
 
 .accordion li i {
     position: absolute;
