@@ -58,7 +58,7 @@ h1 a {
 .accordion li:last-child .link {
     border-bottom: 0;
 }
-.dropdown-menu li:last-child .link {
+.dropdown-menu li:last-child {
     border-bottom: 0;
 }
 
